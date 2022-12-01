@@ -1,0 +1,54 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #DEBACE;
+  font-family: "Trirong", serif;
+}
+
+h1 {
+  margin: 40px;
+  text-shadow: 3px 0 #FBFACD;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #BA94D1;
+}
+
+h2, h3 {
+  margin: 30px;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #BA94D1;
+}
+
+p {
+  color: #BA94D1;
+}
+
+img {
+  width: 80%;
+  background-color: #7F669D;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+
+.myBtn {
+  margin: 30px;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: "Trirong", serif;
+}

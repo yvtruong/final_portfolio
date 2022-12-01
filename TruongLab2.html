@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    table, th, td {
+      border:1px solid black;
+    }
+  </style>
+  <style>
+    .center {
+    text-align: center;
+  }
+  </style>
+
+  <link rel="stylesheet" href="css/mycss1.css">
+
+  <!--CSS page-->
+
+  <body>
+
+  <h1>Schedule for Yenvi - cg3fa22fy - Spring, 2022</h1>
+
+<p>Terms and Definitions</p>
+
+<dl>
+  <dt>How to define a table?</dt>
+  <dd>A table in HTML consists of table cells inside rows and columns.</dd>
+  <dt>Describe when to use the following HTML elements:</dt>
+  <dd>
+    <ul>
+      <li>tr: Use to make a new table row.</li>
+      <li>th: Use to have table header cells.</li>
+      <li>td: Defines a cell in a table.</li>
+      <li>thead: Groups the header content in a table.</li>
+      <li>tfoot: Groups the footer content in a table.</li>
+      <li>caption: Defines the table caption.</li>
+    </ul>
+  </dd>
+  <dt>What is the difference between colspan and rowspan?</dt>
+  <dd>Colspan combines columns and rowspan combines rows; both dependent on how many columns/rows you want to combine.</dd>
+  <dt>What is the difference between cells spacing and padding?</dt>
+  <dd>Cell padding is the space between the cell edges and the cell content whereas cell spacing is the space between each cell. </dd>
+  <dt>How do you define table borders using CSS? How do you control border widths using CSS?</dt>
+  <dd>Table borders are defined by "table, th, td {border: 1px solid; }." You can control border widths by changing the px size. 
+  </dd>
+</dl>
+
+<caption> 
+  Yenvi's Weekly College Schedule
+</caption>
+
+
+
+  <table>
+    <thead>
+    <tr>
+      <th></th>
+      <th>11am-12pm</th>
+      <th>12pm-1pm</th>
+      <th>1pm-2pm</th>
+      <th>2pm-3pm</th>
+      <th>3pm-4pm</th>
+      <th>4pm-5pm</th>
+      <th>5pm-6pm</th>
+      <th>6pm-7pm</th>
+      <th>7pm-8pm</th>
+    </tr>
+    </thead>
+
+    <tr>
+      <th class="date">Monday</th>
+      <td></td> 
+      <td>COGS 3 Discussion</td>
+      <td></td>
+      <td></td>
+      <td>USP 5 Discussion</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <th class="date">Tuesday</th>
+      <td colspan="2">
+        <div class="center">
+          CAT 1 Lecture
+        </div>
+      </td>
+      <td>TDGE 25 Lecture</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td colspan="2">
+        <div class="center">
+          USP 15 Lecture
+        </div>
+      </td>
+      <td>COGS 3 Lecture</td>
+    </tr>
+
+    <tr>
+      <th class="date">Wednesday</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <th class="date">Thursday</th>
+      <td colspan="2">
+        <div class="center">
+          CAT 1 Lecture
+        </div>
+      </td>
+      <td>TDGE 25 Lecture</td>
+      <td>CAT Discussion</td>
+      <td></td>
+      <td></td>
+      <td colspan="2">
+        <div class="center">
+          USP 15 Lecture
+        </div>
+      </td>
+      <td>COGS 3 Lecture</td>
+    </tr>
+
+    <tr>
+      <th class="date">Friday</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>
+        <div class="center">
+        Madewell Brand Ambassador
+        <img src="images/madewell.png" alt="Madewell" width="150">
+      </div>
+      </td>
+      <td></td>
+      <td colspan="2">
+        <div class="center">
+          Volleyball Open Gym
+        </div>
+        <img src="images/vball.jpeg" alt="Volleyball" width="150">
+      </td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <th class="date">Saturday</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <th class="date">Sunday</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    
+  </table>
+
+<h4>Homepage Links</h4>
+<a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html" target="blank">COGS 3 Homepage</a>
+<p>
+  <a href="https://sixth.ucsd.edu/cat/courses/cat-1.html" target="blank">CAT 1 Homepage</a>
+</p>
+<p>
+  <a href="https://catalog.ucsd.edu/courses/THEA.html" target="blank">TDGE 25 Homepage</a>
+</p>
+<p>
+  <a href="https://catalog.ucsd.edu/courses/USP.html" target="blank">USP 15 Homepage</a>
+</p>
+<p>
+  <a href="https://www.madewell.com" target="blank">Madewell Website</a>
+</p>
+<p>
+  <a href="https://recreation.ucsd.edu/open-rec/" target="blank">Volleyball Open Gym Hours</a>
+</p>
+
+</body>
+</html> 
