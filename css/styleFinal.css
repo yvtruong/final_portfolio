@@ -1,0 +1,114 @@
+#title {
+  background-color: #abaee0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5x;
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+  font-family: 'Raleway';
+  font-size: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Raleway';
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px
+}
+
+.navbar-link {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 5% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(15deg);
+  position: absolute;
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #e9e58f;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #abaee0;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #abaee0;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20 px;
+}
+
+#press {
+  background-color: #abaee0;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
